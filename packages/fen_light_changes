@@ -1,3 +1,4 @@
-[COLOR red][B]Online Release Version 1.0.54[/B][/COLOR]
-- Fixed Random Shortcut Folders with Trakt lists included.
+[COLOR red][B]Online Release Version 1.0.55[/B][/COLOR]
+- Added Easynews image search.
+- Added ability to bind Fen Light's Extras dialog and Options dialog to specific keys/buttons for quick access. This would be doe instead of letting Fen Light replace Kodi's Information and Context Menu dialogs as is currently an option. The command for opening the extras dialog is "RunPlugin(plugin://plugin.video.fenlight/?mode=custom_key_extras_menu_choice)", and the Options dialog is "RunPlugin(plugin://plugin.video.fenlight/?mode=custom_key_options_menu_choice)". Restart Kodi if you add these to a keymap.
 - Other changes/fixes.
