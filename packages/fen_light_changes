@@ -2,4 +2,5 @@
 - Added Easynews image search.
 - Added ability to bind Fen Light's Extras dialog and Options dialog to specific keys/buttons for quick access. This would be doe instead of letting Fen Light replace Kodi's Information and Context Menu dialogs as is currently an option. The command for opening the extras dialog is "RunPlugin(plugin://plugin.video.fenlight/?mode=custom_key_extras_menu_choice)", and the Options dialog is "RunPlugin(plugin://plugin.video.fenlight/?mode=custom_key_options_menu_choice)". Restart Kodi if you add these to a keymap.
 - Added menu item in Tools-Set Views where you can turn ON or OFF Fen Light handling view modes when using the addon. Some skins have funky view ID handling and/or naming. If the skin is able (through a helper script) to handle "locking" viewtypes, then this functionality in Fen Light can likely be turned OFF as it is likely not needed.
+- Fixed Trakt lists not loading if there is an instance of type: person within the list.
 - Other changes/fixes.
